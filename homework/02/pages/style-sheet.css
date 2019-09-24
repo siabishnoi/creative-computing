@@ -1,0 +1,16 @@
+h1{
+	font-family: "Futura";
+	color:white;
+	text-align: center;
+	border: dashed 5px black;
+	background-color: pink;	
+}
+body{
+	background-color: #F0F8FF;
+}
+img{
+	height: 650px;
+	width:1480px;
+	margin-left: -3%;
+
+

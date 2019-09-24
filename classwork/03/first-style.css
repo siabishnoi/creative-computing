@@ -1,0 +1,44 @@
+h1{
+	color: purple;
+	font-family: "Helvetica";
+	margin: 0;
+	text-align: left;
+	border: solid 5px white;
+	background-color: #FFEFD5; 
+
+}
+h2 {
+	margin: 0;
+	text-align: center;
+	border: dashed 5px black;
+}
+p {
+font-family: "Arial";
+background-color: lightblue;
+text-align: left;
+}
+body {
+	background-color: #D8A5A5;
+	color:black;
+
+}
+.address {
+	color:white;
+}
+.header-title {
+	font-size: 100px;
+}
+img {
+	width: 100px;
+	height: 50px;
+	float: right;
+
+}
+/*add class for the other images*/
+.dog
+{
+	position: relative;
+	left: 50%;
+	width: 100px;
+	margin-left: -50px;
+}

@@ -26,7 +26,7 @@
 			z-index: -1;
 			left: 460px;
 			animation-name: color;
-			animation-duration: 6s;
+			animation-duration: 5s;
 			animation-timing-function: ease-in-out;
 			animation-direction: alternate;
 			animation-iteration-count: infinite;
@@ -39,7 +39,7 @@
 			background-color: #F0E68C;
 			position: relative;
 			animation-name: background-color;
-			animation-duration: 6s;
+			animation-duration: 5s;
 			animation-timing-function: ease-in-out;
 			animation-direction: alternate;
 			animation-iteration-count: infinite;
@@ -208,7 +208,10 @@
 
 		}
 		@keyframes slide6{
-			0%{transform:rotate(-20deg);}50% {transform: initial;}
+			0%{transform:rotate(-20deg);}
+			
+
+			50% {transform: initial;}
 
 			75%{
 				transform: translate(50vw,0);
@@ -217,7 +220,7 @@
 				transform: initial;}
 
 		}
-		@keyframes slide7{
+		@keyframes slide7{0%{transform: translate(0,10vh);}
 			50% {transform: initial;}
 
 			75%{
@@ -226,33 +229,38 @@
 			100%{
 				transform: initial;
 			}
-			@keyframes slide8{50% {transform: initial;}
+			@keyframes slide8{
+				50% {transform: initial;}
+		
+
+			75%{
+				transform: rotate(10deg);}
+			
+		}
+			100%{
+				transform: initial;}
+			}
+			@keyframes slide9{0%{transform: translate(0,20vh);}
+				50% {transform: initial;}
 
 			75%{
 				transform: rotate(10deg);
 			}
+		
 			100%{
 				transform: initial;}
 			}
-			@keyframes slide9{50% {transform: initial;}
+			@keyframes slide10{
+				50% {transform: initial;}
 
 			75%{
 				transform: rotate(10deg);
-			}
+			
+		}
 			100%{
 				transform: initial;}
 			}
-			@keyframes slide10{50% {transform: initial;}
-
-			75%{
-				transform: rotate(10deg);
-			}
-			100%{
-				transform: initial;}
-			}
-			@keyframes @keyframes spin {
-			to {
-				transform: rotate(360deg);
+		
 			
 
 }

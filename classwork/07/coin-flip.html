@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		body {
+			margin: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 100%;
+			font-size: 30vmin;
+			background-color: pink;
+		}
+		html{
+			height: 100%;
+		}
+	</style>
+</head>
+<body>
+<script>
+	var randomNumber = Math.random();
+	var coin = randomNumber > 0.5;
+	// coin is true
+
+	// var randomNum = Math.random();
+	// var coin = Math.random() > 0.5;
+
+	console.log(coin);
+
+	// the dot goes INSIDE of a thing
+
+	console.log(Math)
+	console.log(document.body)
+
+	document.body.innerHTML = coin;
+
+	if (coin == true) document.body.innerHTML = "heads";
+	if (coin == false) document.body.innerHTML = "tails";
+</script>
+</body>
+</html>

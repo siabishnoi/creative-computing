@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+	html,body {
+		height: 100%;
+	}
+
+	body{
+
+		margin: 0;
+		float: left;
+		display:flex;
+		align-items:center;
+		justify-content:center;
+
+	}
+
+	img{
+
+		height:40vmin;
+	}
+</style>
+</head>
+<body>
+
+<img id="spin1" src="images/1.svg">
+<img id="spin2" src="images/1.svg">
+
+<script>
+
+var spin1 = Math.floor(Math.random() * 6 ) +1;
+
+if (spin1 == 1) document.getElementById("spin1").src = "images/1.svg";
+if (spin1 == 2) document.getElementById("spin1").src = "images/2.svg";
+if (spin1 == 3) document.getElementById("spin1").src = "images/3.svg";
+if (spin1 == 4) document.getElementById("spin1").src = "images/4.svg";
+if (spin1 == 5) document.getElementById("spin1").src = "images/5.svg";
+if (spin1 == 6) document.getElementById("spin1").src = "images/6.svg";
+
+
+var spin2 = Math.floor(Math.random() * 6 ) +1;
+
+
+if (spin2 == 1) document.getElementById("spin2").src = "images/1.svg";
+if (spin2 == 2) document.getElementById("spin2").src = "images/2.svg";
+if (spin2 == 3) document.getElementById("spin2").src = "images/3.svg";
+if (spin2 == 4) document.getElementById("spin2").src = "images/4.svg";
+if (spin2 == 5) document.getElementById("spin2").src = "images/5.svg";
+if (spin2 == 6) document.getElementById("spin2").src = "images/6.svg";
+
+
+</script>
+</body>
+</html>

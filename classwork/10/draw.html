@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		div {
+			position: absolute;
+			width: 20px;
+			height: 20px;
+			background-color: black;
+			margin-left: -25px;
+			margin-top: -25px;
+			border-radius: 10px;
+		}
+	</style>
+</head>
+<body>
+<script>
+	var color = 0;
+	
+	document.onmousemove = function(event) {
+    var div = document.createElement("div");
+    div.style.top = event.y + "px";
+    div.style.left = event.x + "px";
+    div.style.backgroundColor = "hsl(" + color + ", 100% , 50%)";
+    document.body.appendChild(div);
+
+    color = color + 1;
+	}
+</script>
+</body>
+</html>

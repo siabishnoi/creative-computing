@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1 id="my-name">Sia</h1>
+<script>
+	// what are the 3 things a computer can do?
+	// 1. store/retrieve information (memory)
+	// 2. arithmetic 
+	// 3. control flow 
+
+	// 1. memory
+	var anumber = 3.14;
+	var astring = "hello";
+	var aboolean = true;
+	//these are the javascript primitives^
+
+	var anotherboolean = 5 < 3;
+	var anotherstring = "5" + 5;
+	var anothernumber = 5 + 5;
+	// the plus sign, same symbol but different operations 
+
+	// we only ever use var once for each variable, when it is created 
+
+	// 2. arithmetic
+	// we're good
+	// remember order of operations 
+
+	// 3. control flow
+	if (true) console.log("hi");
+	if (false) console.log("goodbye");
+	// what makes if statements interesting is when you include variables in them
+	if (anothernumber < 3) console.log("yes");
+	// multi-line if statements
+	if (true) {
+		console.log("this is true");
+		anothernumber = 5 + 10;
+	}
+	// only booleans go inside parenthesis
+
+	// everything above this line is in the core of javascript language (except console.log)
+
+    // these are more fundamental to the language
+	console.log("console.log is an add-on method");
+	console.log(Math);
+	console.log(Math.random());
+
+	// these are a part of DOM Level 1 specification 
+	// https://www.w3.org/TR/1998/REC-DOM-Level-1-19981001/ (DOM level 1 specification)
+	console.log(document);
+	console.log(document.getElementById);
+
+	var header = document.getElementById("my-name");
+	console.log(header);
+
+	console.log(header.id);
+	// the dot goes inside of a thing
+	console.log(header.style);
+	// setting a style property goes like this
+	header.style.color = "red";
+	document.body.style.backgroundColor = "tan";
+
+
+
+</script>
+</body>
+</html>

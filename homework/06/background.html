@@ -7,13 +7,15 @@
 </head>
 <body>
 <script>
-	var x = document.body;
-var color = ["#00FF00", "#32CD32", "#228B22", "#9ACD32", "#90EE90", "#98FB98"];
-setInterval(function() { 
-    x.style.backgroundColor = color[Math.floor(Math.random() * 5)];  
-  }
-, 1000) ;
+	
+
+var color = 30;
+setInterval(function(){
+	color = color + 1;
+	document.body.style.backgroundColor = "hsl(" + color + ", 100%, 50%)"
+}, 1000 / 60);
 
 </script>
 </body>
 </html>
+

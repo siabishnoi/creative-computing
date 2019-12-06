@@ -1,0 +1,12 @@
+{
+	"key": "value",
+	"name": "robby",
+	"color": "#FFB6C1",
+	"lat": 40,
+	"lon": -74,
+	"location": {
+		"lat": 40,
+	    "lon": -74
+	},
+	"water": true
+} 

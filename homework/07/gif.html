@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		html, body {
+	margin: 0;
+	height: 100%;
+
+}
+body { display: flex; }
+#gif {
+     position: absolute;
+     width: 100%;
+    }
+	</style>
+</head>
+<body>
+	<img id ="image" src = "1.gif" > 
+	
+	<script>
+		
+		  var counter = 0;  
+
+        document.onkeydown = function (event) {
+        	var images = ["1.gif", "2.gif", "3.gif","4.gif"];
+			if (event.keyCode == '38') {
+				counter = counter + 1 
+
+			}
+			else if (event.keyCode == '40') {
+				counter = counter - 1
+			}
+			if (counter > 3) {
+        counter = counter - 4
+        }
+        if (counter < 0) {
+        counter = counter + 4
+        }
+
+        var channel = document.getElementById("image");
+        document.getElementById ("image").src = images[counter];
+
+
+    }
+	</script>
+
+</body>
+</html>

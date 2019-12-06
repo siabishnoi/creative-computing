@@ -16,7 +16,8 @@
 		var text = event.target.result;
 		// console.log(text);
 
-		var array = text.split(" ").sort()
+		// var array = text.split(" ").sort()
+		var array = text.replace(".", " ").split(" ").sort()
 		// console.log(array);
 		printToPage(array);
 	}
